@@ -382,23 +382,23 @@ def test_caseGOC(filepath):
 print("-----------------------------------------------------------------------------------------------------------------------")
 
 print("\n case 9 :")
-test_caseMatPower('cases/case9.m')
+test_caseMatPower('./data/matpower/case9.m')
 print("\n case 14 :")
-test_caseMatPower('cases/case14.m')
+test_caseMatPower('./data/matpower/case14.m')
 print("\n case 30 :")
-test_caseMatPower('cases/case30.m')
+test_caseMatPower('./data/matpower/case30.m')
 print("\n case 39 :")
-test_caseMatPower('cases/case39.m')
+test_caseMatPower('./data/matpower/case39.m')
 print("\n case 57 :")
-test_caseMatPower('cases/matpower/case57.m')
+test_caseMatPower('./data/matpower/case57.m')
 print("\n case 145 :")
-test_caseMatPower('cases/matpower/case145.m')
+test_caseMatPower('./data/matpower/case145.m')
 #print("\n case 300 :")
-#test_caseMatPower('cases/case300.m')
+#test_caseMatPower('./data/matpower/case300.m')
 
 print("-----------------------------------------------------------------------------------------------------------------------")
 
 
 # Test GOC
 #print("test goc:")
-#test_caseGOC('scenario/scenario_035/case.raw')
+#test_caseGOC('./data/GOC/scenario_009/case.raw')
