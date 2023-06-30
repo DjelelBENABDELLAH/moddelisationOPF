@@ -1,7 +1,8 @@
 import json
 import numpy as np
 
-# Ajouter param JSON lorsque la facon de retrouver les valeurs C1 et C0 aura été trouver
+# fonction qui premet de recuperer les donnees contenue dans le case.raw d'un cas du challenge 2 de la grid optimal competition dans un dictonnaire similaire au cas de matpower
+# nécessite d'étudier les autres fichiers d'un scénraio pour amélierer l'étude de gencost
 def parse_GOC_file(filenameRAW):
     with open(filenameRAW, 'r') as f:
         ppc = {}
