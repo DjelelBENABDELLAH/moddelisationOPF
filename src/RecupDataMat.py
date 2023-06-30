@@ -52,7 +52,7 @@ def parse_matpower_file(filename):
 
 # Test
 
-#filename = 'case9.m'
+#filename = './data/matpower/case9.m'
 #data = parse_matpower_file(filename)
 #print(data['baseMVA'])
 #print(data['gen'])
