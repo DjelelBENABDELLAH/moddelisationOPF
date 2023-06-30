@@ -228,7 +228,7 @@ def parse_GOC_file(filenameRAW):
     return ppc
 
 #test 
-# ppc = parse_GOC_file('scenario/scenario_043/case.raw')
+# ppc = parse_GOC_file('./data/GOC/scenario_009/case.raw')
 # bus = np.array(ppc['bus'])
 # print(sum(bus[:,2]))
 # print(sum(bus[:,3]))
