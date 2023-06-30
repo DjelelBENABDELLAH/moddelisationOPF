@@ -333,36 +333,23 @@ def test_model_GOC(filepath):
 # Tests Matpower
 print("-----------------------------------------------------------------------------------------------------------------------")
 print("\ncase 9 :")
-test_model_matpower('./cases/matpower/case9.m')
+test_model_matpower('./data/matpower/case9.m')
 print("\ncase 14 :")
-test_model_matpower('./cases/case14.m')
+test_model_matpower('./data/matpower/case14.m')
 print("\ncase 30 :")
-test_model_matpower('./cases/case30.m')
+test_model_matpower('./datat/matpower/case30.m')
 print("\ncase 39 :")
-test_model_matpower('./cases/matpower/case39.m')
+test_model_matpower('./data/matpower/case39.m')
 print("\ncase 57 :")
-test_model_matpower('./cases/matpower/case57.m')
+test_model_matpower('./data/matpower/case57.m')
 print("\ncase 145 :")
-test_model_matpower('./cases/matpower/case145.m')
+test_model_matpower('./data/matpower/case145.m')
 print("-----------------------------------------------------------------------------------------------------------------------")
 
-#print("\ncase matpower :")
-#test_model_matpower('cases/matpower/case3120sp.m')
-#test_model_matpower('cases/matpower/case6468rte.m')
-
-
-#print("\ncas tester :")
-#test_model_matpower('cases/matpower/case1888rte.m')
-#print("\ncase 300 :")
-#test_model_matpower('cases/case300.m')
 
 #Tests GOC
 #print("test goc sans cliques:")
-#test_model_GOC('scenario/scenario_043/case.raw')
-
-
-#cScen = parse_GOC_file('scenario/scenario_262/case.raw')
-#model = GenModelOPFR(cScen)
+#test_model_GOC('./data/GOC/scenario_009/case.raw')
 
 
 
