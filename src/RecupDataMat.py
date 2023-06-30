@@ -1,6 +1,7 @@
 
 import numpy as np
 
+# fonction qui permet de récupérer les données contenue dans un fichier caseN.m de matpower dans un dictionnaire
 def parse_matpower_file(filename):
 
     with open(filename, 'r') as file:
