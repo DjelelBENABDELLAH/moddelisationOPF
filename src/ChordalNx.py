@@ -29,7 +29,8 @@ def chordal_completion(adjacency_matrix):
     graph = nx.Graph(adjacency_matrix)
 
     # Perform chordal completion
-    i = random.randint(0,3)
+    #i = random.randint(0,3)
+    i = 0
     print(i)
     if i==0:
         chordal_graph, mapping = nx.complete_to_chordal_graph(graph)
